@@ -47,7 +47,7 @@ $signedDownloadToken = $env:trmm_sign_download_token  # Token used for signed do
 $apiTarget = $env:trmm_api_target        # Environment variable for the API target URL
 
 # Define GitHub API URL for the RMMAgent repository
-$repoUrl = "https://api.github.com/repos/amidaware/rmmagent/releases/latest"
+$repoUrl = "https://api.github.com/repos/nuvemquery/rmmagent/releases/latest"
 
 # Function to get the currently installed version of the Tactical RMM agent from the software list
 function Get-InstalledVersion {
