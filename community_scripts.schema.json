@@ -2,7 +2,7 @@
   "title": "TRMM Community Scripts",
   "description": "JSON schema for the Tactical RMM Community Scripts configuration file.",
   "$schema": "https://json-schema.org/draft/2019-09/schema",
-  "$id": "https://raw.githubusercontent.com/amidaware/community-scripts/main/community_scripts.schema.json",
+  "$id": "https://raw.githubusercontent.com/nuvemquery/community-scripts/main/community_scripts.schema.json",
   "type": "array",
   "items": {
     "type": "object",
