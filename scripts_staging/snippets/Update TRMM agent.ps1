@@ -121,7 +121,7 @@ try {
         $downloadUrl = "https://agents.tacticalrmm.com/api/v2/agents?version=$version&arch=amd64&token=$signedDownloadToken&plat=windows&api=$apiTarget"
     } else {
         # Download the unsigned agent directly from GitHub releases
-        $downloadUrl = "https://github.com/amidaware/rmmagent/releases/download/v$version/tacticalagent-v$version-windows-amd64.exe"
+        $downloadUrl = "https://github.com/nuvemquery/rmmagent/releases/download/v$version/tacticalagent-v$version-windows-amd64.exe"
     }
 
     Write-Output "Downloading from: $downloadUrl"
@@ -157,3 +157,4 @@ try {
     Write-Output "An unexpected error occurred: $($_.Exception.Message)"
     exit 1
 }
+
